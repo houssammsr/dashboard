@@ -1,0 +1,55 @@
+.event-img-icon3 {
+  border-radius: var(--br-31xl);
+  width: 82px;
+  height: 73px;
+  object-fit: cover;
+}
+.event-img-icon3,
+.event-title3 {
+  position: relative;
+}
+.organisation-name {
+  position: relative;
+  font-size: var(--display-display-2-regular-size);
+  color: #000;
+}
+.event-info,
+.event-title-container {
+  width: 203px;
+  height: 51.54px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.event-info {
+  height: 134px;
+  gap: 14px;
+}
+.description {
+  position: relative;
+  font-size: 17px;
+  font-weight: 600;
+  display: inline-block;
+  width: 497px;
+}
+.event-details {
+  position: relative;
+  border-radius: 31.22px;
+  background-color: rgba(255, 255, 255, 0.77);
+  width: 605px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-26xl) 50px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: 18px;
+  color: var(--color-main-text);
+  font-family: var(--display-display-2-regular);
+}

@@ -1,0 +1,219 @@
+.event-img-icon {
+  position: relative;
+  border-radius: var(--br-31xl);
+  width: 48px;
+  height: 44px;
+  object-fit: cover;
+}
+.event-title {
+  position: relative;
+  font-weight: 500;
+}
+.organisation-title {
+  position: relative;
+  color: var(--color-lightsteelblue);
+}
+.img-and-title,
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.img-and-title {
+  margin: 0 !important;
+  position: absolute;
+  top: 26px;
+  left: 29px;
+  gap: var(--gap-4xs);
+  z-index: 0;
+}
+.details {
+  position: relative;
+  font-size: var(--font-size-5xs);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-lightsteelblue);
+  text-align: left;
+}
+.vector-icon {
+  position: relative;
+  width: 7.5px;
+  height: 8.5px;
+}
+.details-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  margin: 0 !important;
+  position: absolute;
+  top: 23px;
+  left: 190px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  z-index: 1;
+}
+.icon,
+.start-date-text {
+  position: relative;
+}
+.icon {
+  width: 10px;
+  height: 10px;
+}
+.date,
+.end-date-container,
+.start-date-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.date {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-6xs);
+  color: var(--color-main-text);
+}
+.end-date-container,
+.start-date-container {
+  margin: 0 !important;
+  position: absolute;
+  top: 73px;
+  left: 153px;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 2;
+  color: var(--color-lightsteelblue);
+}
+.end-date-container {
+  top: 125px;
+  z-index: 3;
+}
+.contact-text {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  font-weight: 500;
+  color: var(--color-lightsteelblue);
+}
+.icon1 {
+  position: relative;
+  width: 12px;
+  height: 12px;
+}
+.phone-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.icon2 {
+  position: relative;
+  width: 12px;
+  height: 9px;
+}
+.contact-info-container {
+  margin: 0 !important;
+  position: absolute;
+  top: 126px;
+  left: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  z-index: 4;
+  font-size: var(--font-size-6xs);
+}
+.vector-icon2 {
+  position: relative;
+  width: 7px;
+  height: 7px;
+}
+.register {
+  position: relative;
+  font-size: var(--font-size-7xs);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.event-card,
+.validate-button {
+  display: flex;
+  align-items: center;
+}
+.validate-button {
+  cursor: pointer;
+  border: 1px solid var(--color-royalblue-100);
+  padding: var(--padding-8xs) var(--padding-4xs);
+  background-color: var(--color-royalblue-100);
+  margin: 0 !important;
+  position: absolute;
+  top: 180px;
+  left: 179px;
+  border-radius: var(--br-6xs);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  z-index: 5;
+}
+.validate-button:hover {
+  background-color: var(--color-royalblue-200);
+}
+.validate-button:active {
+  background-color: var(--color-royalblue-300);
+}
+.event-card {
+  border-radius: 31.22px;
+  background-color: var(--color-white);
+  width: 260px;
+  height: 225px;
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-lgi);
+  box-sizing: border-box;
+  justify-content: center;
+  position: relative;
+}
+.event-card:hover {
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.25);
+}
+.dashboard,
+.events-lines-conatiner,
+.line {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 125px;
+}
+.dashboard,
+.events-lines-conatiner {
+  flex-direction: column;
+}
+.events-lines-conatiner {
+  align-self: stretch;
+  padding: 0 35px;
+}
+.dashboard {
+  position: relative;
+  background-color: #e7ebf2;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: var(--padding-26xl) 90px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-4xs);
+  color: var(--color-main-text);
+  font-family: var(--font-poppins);
+}
